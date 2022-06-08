@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def multiply_by_2(a_dictionary):
-    new_d = a_dictionary.copy()
-    for key in sorted(new_d):
-        print("{}: {}".format(key,new_d[key] * 2))
+    new_dic = {}
+    for key in a_dictionary:
+        new_dic[keey] = a_dictionary[key] * 2
+    return new_dic
