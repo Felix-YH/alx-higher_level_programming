@@ -3,8 +3,8 @@
 
 
 class Square:
-    """ Represent a square with public instance
-    with getter and setter
+    """ Represent a square with public 
+    instance with getter and setter
     """
 
     def __init__(self, size=0):
@@ -21,10 +21,6 @@ class Square:
 
     @size.setter
     def size(self, value):
-        """sets the size of a sqaure
-        Args:
-        Value: size of square
-        """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         elif size < 0:
