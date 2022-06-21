@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" Class that contains a square"""
+"""Class that contains a square"""
 
 
 class Square:
-    """ Represent a square with 
+    """Represent a square with 
     private attribute
     """
 
