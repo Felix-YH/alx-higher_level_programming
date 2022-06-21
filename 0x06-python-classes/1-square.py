@@ -3,13 +3,13 @@
 
 
 class Square:
-    """Represent a square with 
+    """Represent a square with
     private attribute
     """
 
     def __init__(self, size):
         """Initializes a square.
-    
+
         Args:
             size: size of a square
         """
