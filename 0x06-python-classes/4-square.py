@@ -3,7 +3,7 @@
 
 
 class Square:
-    """ Represent a square with public 
+    """Represent a square with public
     instance with getter and setter
     """
 
