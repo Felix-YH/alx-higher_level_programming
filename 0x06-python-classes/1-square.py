@@ -4,7 +4,8 @@
 
 class Square:
     """ Represent a square with 
-    private attribute"""
+    private attribute
+    """
 
     def __init__(self, size):
     """Initializes a square.
