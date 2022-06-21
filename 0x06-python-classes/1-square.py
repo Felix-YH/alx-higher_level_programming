@@ -8,9 +8,9 @@ class Square:
     """
 
     def __init__(self, size):
-    """Initializes a square.
+        """Initializes a square.
     
-    Args:
-        size: size of a square
-    """
-    self.__size = size
+        Args:
+            size: size of a square
+        """
+        self.__size = size
