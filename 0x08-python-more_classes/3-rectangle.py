@@ -63,8 +63,8 @@ class Rectangle:
     def __str__(self):
         """print # in form of a rectangle"""
         if self.__width == 0 or self.__height == 0:
-            return ("")
-        rec_gle = ""
+            return ('')
+        rec_gle = ''
         for i in range(self.__width):
             for j in range(self.__height):
                 rec_gle += '#'
