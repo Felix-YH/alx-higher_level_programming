@@ -65,8 +65,8 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ('')
         rec_gle = ''
-        for i in range(self.__width):
-            for j in range(self.__height):
+        for i in range(self.__height):
+            for j in range(self.__width):
                 rec_gle += '#'
             rec_gle += '\n'
         return rec_gle[:-1]
