@@ -98,6 +98,7 @@ class Rectangle:
             return rect_1
         if rect_1 < rect_2:
             return rect_2
+
     @classmethod
     def square(cls, size=0):
         """that returns a new Rectangle/
