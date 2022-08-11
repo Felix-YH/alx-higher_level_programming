@@ -1,6 +1,5 @@
--- Lists all records of the table "second_table"
-	-- without listing rows without a name value
-		--in descending order
+-- Lists all records of the table second_table having a name value.
+-- Records are ordered by descending score.
 SELECT `score`, `name`
 FROM `second_table`
 WHERE `name` != ""
